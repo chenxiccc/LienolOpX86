@@ -19,3 +19,7 @@ wget -O feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/blac
 wget -O feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/whitelist_host https://raw.githubusercontent.com/chenxiccc/Customfiles/master/pw/whitelist_host
 wget -O feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/blacklist_ip https://raw.githubusercontent.com/chenxiccc/Customfiles/master/pw/blacklist_ip
 wget -O feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/whitelist_ip https://raw.githubusercontent.com/chenxiccc/Customfiles/master/pw/whitelist_ip
+#Nps 添加断线自动重连
+wget -O package/lean/luci-app-nps/luasrc/model/cbi/nps.lua https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/luasrc/model/cbi/nps.lua
+wget -O package/lean/luci-app-nps/root/etc/config/nps https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/root/etc/config/nps
+wget -O package/lean/luci-app-nps/root/etc/init.d/nps https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/root/etc/init.d/nps

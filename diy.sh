@@ -24,4 +24,4 @@ wget -O feeds/lienol/lienol/luci-app-passwall/root/usr/share/passwall/rules/whit
 #wget -O package/lean/luci-app-nps/root/etc/config/nps https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/root/etc/config/nps
 #wget -O package/lean/luci-app-nps/root/etc/init.d/nps https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/root/etc/init.d/nps
 #wget -O package/lean/luci-app-nps/luasrc/i18n/nps.zh_CN.po https://raw.githubusercontent.com/chenxiccc/openwrt/dev-19.07/package/lean/luci-app-nps/luasrc/i18n/nps.zh_CN.po
-sed -i "s/PKG_VERSION:=0.26.3/PKG_VERSION:=0.26.5/g" package/lean/npc/Makefile
+#sed -i "s/PKG_VERSION:=0.26.3/PKG_VERSION:=0.26.5/g" package/lean/npc/Makefile
